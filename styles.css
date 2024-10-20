@@ -1,0 +1,354 @@
+.body {
+    background-image: url("Eliphan.jpg"), url("google.JPG");
+    background-size: 100%, 100%;
+    background-repeat: no-repeat, no-repeat;
+    background-position: left top, left top;
+    opacity: 1, 0.2;
+    background-color: transparent, transparent;
+}
+
+.myDIV {
+    height: 470px;
+    background-color: transparent;
+    border: 0px solid transparent;
+    padding: 0px;
+    background-image: url("google.JPG");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-image-source: url("google.JPG");  
+    border-image-repeat: stretch;
+    border-image-slice: 0;
+    border-image-width: 0px;
+    border-image-outset: 0px;
+    opacity: 0.6;
+    margin: 10px;
+    padding: 40px 40px 0px 0px;
+    position: relative;
+}
+
+.myDIV:after {
+
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+.a {
+    text-align: right;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    opacity: 1;
+    position: relative;
+}
+
+.p_r {
+    text-align:right; 
+}     
+
+.p {
+
+    text-align:center;
+
+}
+
+.form {
+    text-align:right;
+}
+
+.input {
+
+    padding-left: 140px;
+    height: 45px; 
+    border-color:green; 
+    width: 90%; 
+    color: black;
+    font-size:240%; 
+    padding-left: 45px;
+    background-color: transparent;
+    opacity: 0.8;
+    border-radius: 48px;
+    resize: vertical;
+    float: right;
+}
+
+
+.input:focus {
+
+    opacity: 1;
+}
+
+.input:hover {
+    background-color: green;
+    opacity: 0.8;
+}
+
+
+.button {
+    background-color: green;
+    text-align:center; 
+    border-color:transparent; 
+    width: 400px; 
+    height: 45px; 
+    font-size:170%;
+    border-radius: 48px;
+    opacity: 0.7;
+    position: relative;
+    cursor: pointer;
+    padding: 6px 6px 6px 6px;
+    color: white;
+    float: none;
+}
+
+.button:hover {
+    background-color: blue;
+    opacity: 1;
+}
+
+.label  {
+    text-align: left;
+    width: 450px;
+    font-size:240%;
+    float: left;
+    margin-left: 10px;
+}
+
+
+.i {
+    position: absolute;
+    font-size:36px; 
+    position: relative;
+    left: 40px; 
+    padding-left: 0px;
+}
+
+.advanced_search {
+
+    border-color:transparent; 
+    width: 280px; 
+    height: 45px; 
+    font-size:170%;
+    opacity: 0.5; 
+    background-color: green;
+    text-align:center; 
+    border-radius: 48px;
+}
+
+
+table {
+    border: 1px solid transparent;
+    border-collapse: collapse;
+    float: none;
+}
+
+td {
+    border: 1px solid transparent;
+    padding: 2px;
+    border-collapse: collapse;
+    width: 450px;
+    height: 45px;
+}
+
+.td {
+
+    border: 1px solid transparent;
+    padding: 2px;
+    border-collapse: collapse;
+    width: 100%;
+    height: 45px;
+
+}
+
+
+
+.grid {
+    background-color: transparent;
+    display: grid;
+    padding: 60px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    grid-template-columns: 450px auto;
+    
+    
+    
+}
+
+.grid-item {
+    background-color: transparent;
+    padding: 10px;
+    height: 30px;
+    
+}
+
+@media (max-width: 939px) { 
+    .body {
+        background-image: url("Eliphan.jpg");
+        background-size: 100%;
+        background-repeat: repeat-y;
+    }
+
+    .myDIV {
+        height: 470px;
+        background-color: transparent;
+        border: 0px solid transparent;
+        padding: 0px;
+        background-image: url("google.JPG");
+        background-size: 100%;
+        background-repeat: repeat-y;
+        border-image-source: url("google.JPG");  
+        border-image-repeat: stretch;
+        border-image-slice: 0;
+        border-image-width: 0px;
+        border-image-outset: 0px;
+        opacity: 0.6;
+        margin: 10px;
+        padding: 40px 40px 0px 0px;
+        position: relative;
+    }
+    
+    .i {
+        
+        font-size:36px; 
+        position: relative;
+        left: -95%; 
+        padding-left: 0px;
+    }
+
+    .input {
+
+        padding-left: 140px;
+        height: 45px; 
+        border-color:green; 
+        width: 90%; 
+        color: black;
+        font-size:240%; 
+        padding-left: 45px;
+        background-color: transparent;
+        opacity: 0.8;
+        border-radius: 48px;
+        resize: vertical;
+        float: right;
+        position: relative;
+        bottom: 40px;
+    }
+
+}
+
+@media (min-width: 940px) {
+    .body {
+        background-image: url("Eliphan.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .myDIV {
+        height: 470px;
+        background-color: transparent;
+        border: 0px solid transparent;
+        padding: 0px;
+        background-image: url("google.JPG");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        border-image-source: url("google.JPG");  
+        border-image-repeat: stretch;
+        border-image-slice: 0;
+        border-image-width: 0px;
+        border-image-outset: 0px;
+        opacity: 0.6;
+        margin: 10px;
+        padding: 40px 40px 0px 0px;
+        position: relative;
+    }
+
+    .i {
+        
+        font-size:36px; 
+        position: relative;
+        left: 40px; 
+        padding-left: 0px;
+    }
+
+    .input {
+
+        padding-left: 140px;
+        height: 45px; 
+        border-color:green; 
+        width: 90%; 
+        color: black;
+        font-size:240%; 
+        padding-left: 45px;
+        background-color: transparent;
+        opacity: 0.8;
+        border-radius: 48px;
+        resize: vertical;
+        float: right;
+    }
+}
+
+
+@media (max-width: 900px) {
+
+    .i {
+        
+        font-size:36px; 
+        position: relative;
+        left: -100%; 
+        padding-left: 0px;
+    }
+
+    .input {
+
+        
+        height: 45px; 
+        border-color:green; 
+        width: 90%; 
+        color: black;
+        font-size:240%; 
+        padding-left: 58px;
+        background-color: transparent;
+        opacity: 0.8;
+        border-radius: 48px;
+        resize: vertical;
+        float: right;
+        position: relative;
+        bottom: 40px;
+    }
+
+
+
+}
+
+
+@media (min-width: 901px) and (max-width: 1600px) {
+
+    .i {
+        
+        font-size:36px; 
+        position: relative;
+        left: -92%; 
+        padding-left: 0px;
+        
+    }
+
+    .input {
+
+        
+        height: 45px; 
+        border-color:green; 
+        width: 90%; 
+        color: black;
+        font-size:240%; 
+        padding-left: 58px;
+        background-color: transparent;
+        opacity: 0.8;
+        border-radius: 48px;
+        resize: vertical;
+        float: right;
+        position: relative;
+        bottom: 40px;
+    }
+
+
+
+}

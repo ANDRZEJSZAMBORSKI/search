@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="styles.css">
+        
+
+
+    </head>
+
+    <body class="body">
+        
+        <p class="p_r">        
+            <a class="a" href="index.html"><button class="button" type="button">Google Search</button></a>
+            <a class="a" href="Image_Search.html"><button class="button" type="button">Image Search</button></a>
+        </p>
+
+        
+        <form class="form" action="https://www.google.com/search" method="get">
+
+            <div class="myDIV">
+                <table>
+                    <thead>
+                        <th></th>
+                        <th></th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><label class="label" for="all_these_words">“all these words:”</label></td>
+                            <td class="td">
+                                <i class="i"><i class="fa fa-search"></i></i>
+                                <input class="input" type="text" id="all_these_words" name="q" placeholder="all these words:..."> 
+                                <br><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label class="label" for="this_exact_word_or_phrase">“this exact word or phrase:”</label></td>
+                            <td class="td">
+                                <i class="i"><i class="fa fa-search"></i></i>
+                                <input class="input" type="text" id="this_exact_word_or_phrase" name="as_q" placeholder="this exact word or phrase:..."> 
+                                <br><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label class="label" for="any_of_these_words">“any of these words:”</label></td>
+                            <td class="td">
+                                <i class="i"><i class="fa fa-search"></i></i>
+                                <input class="input" type="text" id="any_of_these_words" name="as_oq" placeholder="any of these words:..."> 
+                                <br><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label class="label" for="none_of_these_words">“none of these words:”</label></td>
+                            <td class="td">
+                                <i class="i"><i class="fa fa-search"></i></i>
+                                <input class="input" type="text" id="none_of_these_words" name="as_eq" placeholder="none of these words:...">
+                            </td>
+                        </tr>
+                    </tbody> 
+                
+            
+            </div>
+
+        
+                <p class="p">
+                <input class="button" type="submit" value="Advanced Search">
+                <input class="button" type="submit" value="I will be lucky!" name="btnI" formaction="https://google.com/search?&btnI=1">
+                </p>
+            
+        </form>    
+        
+    
+    </body>
+</html>
